@@ -1,0 +1,7 @@
+
+Abstract Factory là 1 dạng lớn hơn của Factory method.
+Trong 1 Abstract Factory sẽ chứa nhiều Factory method
+Abstract Factory giúp trong việc tách các cụm đối tượng ra
+
+Cái thằng Factory method thì nó sẽ tạo ra các đối tượng trong cùng thằng cha
+Còn Abstract Factory thì nó tạo ra các đối tượng trong 1 family (gia định, họ hàng)
