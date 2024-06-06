@@ -1,0 +1,12 @@
+Prototype Pattern
+
+- Prototype pattern là tạo ra 1 bản sao của đối tượng muốn tạo
+
+- có 2 cách để tạo ra bản sao:
+    - Sử dụng clone() của thử viện Cloneable bằng cách implement vào Class muốn tạo đối tượng sao chép.
+        Trường hợp này nó sẽ sao chép tất cả các thông tin thuộc tính
+        Truong trường hợp này thì nó không thể bảo mật thông tin các field mà ta không muốn sao chép
+
+    - Tạo ra 1 clone() với các thuộc tính muốn sao chép
+        Trường hợp này sẽ tạo đối tượng sao chép với các thuộc tính cần được sao chép
+        Trong trường hợp này ta có thể bảo mật thông tin các field không thể sao chép cho đối tượng cần sao chép
