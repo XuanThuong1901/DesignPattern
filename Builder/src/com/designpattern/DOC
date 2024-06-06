@@ -1,0 +1,18 @@
+
+Builder pattern
+theo cách tôi được biết thì có 2 hướng xây dựng Builder pattern
+1: xây dựng trực tiếp trong class muốn xây dựng Builder
+2: Xây dựng 1 classBuilder được implement từ 1 interface Builder riêng biệt với class muốn xây dựng Builder
+
+cả 2 đều có ưu nhược điểm riêng:
+
+Đối với trường hợp 1:
+    Ưu điểm: Đơn giản hóa mã nguồn, không cần tạo lớp Builder riêng biệt
+    Nhược điểm: Có thể làm cho class đó trở nên phức tạp nếu như có quá nhiều thuộc tính được thiết lập
+
+
+Đối với tường hợp 2:
+    Ưu điểm: Tách biệt trách nhiệm giữa việc xây dựng đối tượng và đối tượng đó, làm cho mã nguồn dễ đọc và dễ bảo trì.
+            đặc biết là hữu ích khi có nhiều lớp cần xây dựng
+    Nhược điểm: Đôi khi có thể làm tăng độ phức tạp của mã nguồn, đặc biệt là trong những trường hợp đơn giản
+
